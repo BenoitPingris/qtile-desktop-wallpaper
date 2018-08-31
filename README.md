@@ -51,9 +51,9 @@ widget3(background=bg.get_next_color()) # a new color.
 ```
 
 #### Screenshots:
-![Image1](test)
-![Image1](test)
-![Image1](test)
+![Image1](https://raw.githubusercontent.com/BenoitPingris/qtile-desktop-wallpaper/master/image1.png)
+![Image1](https://raw.githubusercontent.com/BenoitPingris/qtile-desktop-wallpaper/master/image2.png)
+![Image1](https://raw.githubusercontent.com/BenoitPingris/qtile-desktop-wallpaper/master/image3.png)
 
 Link of my [qtile config](https://github.com/BenoitPingris/qtile-config)
 ##
