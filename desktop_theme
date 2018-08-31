@@ -19,7 +19,7 @@ function main {
     if [ -f $1 ]
     then
 	colorz $1 --no-preview | cut -d' ' -f1 > ~/.config/qtile/colors_schemes
-	qtile-cmd -o cmd -f restart
+	qtile-cmd -o cmd -f restart 2>/dev/null
 	feh --bg-scale $1
     else
 	echo "$1 is not a valid image !"
