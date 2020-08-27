@@ -5,7 +5,7 @@ class Colors:
         self.i = 0
 
     def load_colors(self):
-        with open('/home/benoit/.config/qtile/colors_schemes', 'r') as f:
+        with open('~/.config/qtile/colors_schemes', 'r') as f:
             self.colors = [l.strip() for l in f.readlines()]
 
     def get_next_color(self):
